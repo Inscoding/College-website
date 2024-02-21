@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="extension.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+		<title>Activities Form</title>
+	</head>
+<body>
+    <div class="width-100 top-header">
+        <div class="container">
+            <div class="width-100">
+                <b class="news-list">NEWS:</b>
+                <marquee class="headquote">Welcome to Extension Lecture
+                    
+                </marquee>
+            </div>
+        </div>
+       </div> 
+       <div class="width-100 header-menu">
+        <div class="container">
+            <div class="logo">
+                <img src="https://i.postimg.cc/c4RbhJkT/download.jpg" class="image1"/>
+            </div>
+            <ul class="main-menu">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">
+                        Activities
+                        <img src="https://i.postimg.cc/FKdBrykS/dropdown.png" alt="Dropdown Icon">
+                    </a>
+                    <ul class="dropdown">
+                        <<li><a href="activities.html">Academic Annual Plan</a></li>
+                        <li><a href="student.html">Student Seminar</a></li>
+                        <li><a href="result.html">Result Analysis</a></li>
+                        <li><a href="extension.html">Extension Lecture</a></li>
+                        <li><a href="field.html">Field Trip</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+       </div>
+       <div class="wrapper">
+		<div class="r_form_wrap">
+			
+			<div class="title">
+				<p>Extension Lecture</p>
+			</div>
+			
+			<!-- Admission from -->
+			<div class="r_form">
+				<form method="post" onsubmit="sendmail(); reset(); return false;">
+					<div class="input_wrap">
+						<label for="file">Facaility Name</label>
+						<div class="input_item">
+							<i class="fa fa-user" id="icon"></i>
+							<input type="text" name="email address" class="input" id="emailaddress" placeholder="Enter You'r Name" required>
+						</div>
+					</div>
+					<div class="input_wrap">
+						<label for="emailaddress">Topic</label>
+						<div class="input_item">
+							<i class="fa fa-list-check" id="icon"></i>
+							<input type="text" name="email address" class="input" id="emailaddress" placeholder="Enter You'r Topic" required>
+						</div>
+					</div>
+
+					
+					<div class="input_wrap">
+						<label>Gender</label>
+						<div class="input_radio">
+							<div class="input_radio_item">
+								<input type="radio" id="male" name="gender" class="radio" value="male" checked>
+								<label for="male" class="radio_mark">
+									<ion-icon class="i" name="male-sharp"></ion-icon>
+								Male</label>
+							</div>
+							<div class="input_radio_item">
+								<input type="radio" id="female" name="gender" class="radio" value="female">
+								<label for="female" class="radio_mark">
+									<ion-icon class="i" name="female-sharp"></ion-icon>
+									Female</label>
+							</div>
+							<div class="input_radio_item">
+								<input type="radio" id="others" name="gender" class="radio" value="others">
+								<label for="others" class="radio_mark">
+									<ion-icon class="i" name="male-female-sharp"></ion-icon>
+									Others</label>
+							</div>
+						</div>
+					</div>
+
+                    <div class="input_wrap">
+						<label for="emailaddress">No.of student Attended</label>
+						<div class="input_item">
+							<i class="fa fa-graduation-cap" id="icon"></i>
+							<input type="text" name="email address" class="input" id="emailaddress" placeholder="Enter You'r numer" required>
+						</div>
+					</div>
+
+					<div class="input_wrap">
+						<label for="file">File Upload</label>
+						<div class="input_item">
+							<i class="fa fa-file" id="icon"></i>
+							<input type="file" name="file" class="input" id="file" required>
+						</div>
+					</div>
+
+					<div class="input_wrap">
+						<label for="emailaddress">Remarks</label>
+						<div class="input_item">
+							<i class="fa fa-trademark" id="icon"></i>
+							<input type="text" name="email address" class="input" id="emailaddress" placeholder="Enter You'r Remarks" required>
+						</div>
+					</div>
+
+					
+					<input type="submit" class="button" value="Register Now">
+					
+					<div ></div>
+					<input type="reset" class="clear_ad" value="Clear">
+					
+				</form>
+			</div>
+	
+		</div>
+	</div>
+</body>
+</html>

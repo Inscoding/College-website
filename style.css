@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html {
+    font-family: "Roboto", sans-serif, "arial";
+    background: #f0f3fa;
+}
+
+/*Website scroll bar*/
+body::-webkit-scrollbar {
+    width: 5px !important;
+    height: 5px !important;
+}
+body::-webkit-scrollbar-track {
+    background: #3838387c !important;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #e0120ba4 !important;
+    border: 1px solid #ff020279 !important;
+    border-radius: 1px !important;
+}
+
+/*drop down icon to right adjustment*/
+
+.about-us-item {
+    position: relative;
+}
+
+.about-us-item img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.main-menu a {
+    text-decoration: none;
+    color: #333; /* Set text color for the main menu items */
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.main-menu img {
+    max-width: 20px; /* Set the maximum width of the image */
+    margin-right: 5px; /* Adjust the spacing between the image and text */
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff; /* Set background color for the dropdown */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.dropdown a {
+    color:red; /* Set text color for the dropdown items */
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.main-menu li:hover .dropdown {
+    display: block;
+}
+
+.width-100 {
+    width: 100%;
+    float: left;
+}
+
+.container {
+    width: 1500px;
+    margin: 0px auto;
+}
+
+.top-header {
+    background: #2596f3;
+    padding: 5px 0px;
+    border-bottom: 1px solid #3131315e
+}
+
+.news-list {
+    background: #fff;
+    color: red;
+    padding: 6px;
+    font-size: 20px;
+}
+
+.headquote {
+    font-size: 18px;
+    color: #fff;
+    width: 80%;
+}
+
+.header-menu {
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+}
+
+.logo {
+    width: fit-content;
+    float: left;
+}
+
+.main-menu {
+    list-style: none;
+    float: right;
+    margin-top: 20px;
+}
+
+
+.main-menu a {
+    font-weight: 500;
+    color: #3a3a3a;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.main-menu li {
+    float: left;
+    padding: 12px 15px;
+}
+
+.image1 {
+    height: 100px;
+    width: 100px;
+}
+
+.image2 {
+    width: 200px;
+    height: 200px;
+}
+
+.slider-width {
+    height: auto;
+    width: 100%;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.width-33 {
+    width: 33%;
+    float: left;
+}
+
+.latest-news {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.heading-sect {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    padding-top: 2px;
+    border: #cfcfcf 1px solid;
+    padding-top: 15px;
+    padding-left: 15px;
+    background: #00aed9;
+    color: white;
+}
+
+.head-title {
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.latest-news-ul {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+}
+
+.event-list {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.upcomming-event-list {
+    padding: 0px;
+    list-style: none;
+}
+
+.upcomming-event-list li {
+    width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.event-date {
+    background: #03a9f4;
+    width: 30px;
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.notice-board {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.notice-board-list {
+    padding: 0px;
+    list-style: none;
+    line-height: 40px;
+}
+
+.notice-board-list li {
+width: 100%;
+    float: left;
+    margin-bottom: 15px;
+}
+
+.our-principal {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.useful-info-ul {
+    list-style: none;
+}
+
+.useful-info-ul li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+}
+
+.useful-info-ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+.gov-sec-style {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 30px;
+}
+
+.governer-name {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+
+.governer-designation {
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+    margin-top: 6px;
+}
+
+.governer-img {
+    width: 100%;
+}
+
+.width-40 {
+    width: 40%;
+    float: left;
+}
+
+.width-60 {
+    width: 60%;
+    float: left;
+}
+
+.about-us {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.certificate {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fff;
+    padding: 20px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.footer {
+    background: #232f3e;
+    padding: 50px 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.width-25 {
+    width: 25%;
+}
+
+.quicklink-heading {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.quicklink-menu {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.quicklink-menu li a {
+    color: #ffff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.get-in-touch {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.get-in-touch li i {
+    color: #ed372c;
+    font-size: 20px;
+}
+
+.get-in-touch li {
+    color: #fff;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer-e-mail {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-website {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.social-media {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.social-media li {
+    float: left;
+    padding: 0px 8px;
+}
+
+.social-media li a img {
+    width: 30px;
+}
+
+.footer2-bacbor {
+    background: #232f3e;
+    padding: 10px 0px;
+    border-top: 1px solid #898989;
+}
+.footer2-content {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+}
